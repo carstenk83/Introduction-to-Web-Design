@@ -1,0 +1,91 @@
+.font_style {
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+
+
+body {
+	  font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h1{
+  font-family: "Signika Negative", sans-serif;
+  color: #007bff;
+  margin: 10px;
+
+}
+
+
+p{
+  font-family: "Signika Negative", sans-serif;
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 8px;
+
+}
+
+
+a:link {
+  color: #6a80e2;
+
+}
+
+a:hover{
+   color: #28b463;
+   font-weight: bold;
+}
+
+a:active{
+  font-weight: darkblue;
+
+}
+
+a:visited{
+  color:  #186a3b;
+
+}
+
+
+ul {
+  list-style-type: square;
+}
+
+.main-content {
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+.floatList{
+  float: left;
+  width: 20%;
+  margin-right: 10px; 
+
+}
+
+#backgroundImg1 {
+  background-image: url(https://c2.vanceai.com/posts/16221731186022243-FeatBlueWhiteBackground.jpg);
+  background-size: cover;
+}
+
+#backgroundImg2 {
+  background-image: url(https://c8.alamy.com/comp/2X2AHE7/pizza-slice-with-pepperoni-seamless-pattern-italian-food-background-simple-doodle-hand-drawn-kitchen-wallpaper-flat-vector-illustration-2X2AHE7.jpg);
+  background-size: cover;
+}
+
+
+#clearFloat {
+  clear: both;
+}
+
+
