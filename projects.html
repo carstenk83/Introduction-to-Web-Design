@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styleSheet/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="color-toggle" style="margin-top: 1rem; padding: 0.5rem 1rem;">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section class="flex-container projects">
+            <div class="flex-item">
+                <h2>Web Development</h2>
+                <p>Here are some of my web development projects:</p>
+                <div class="image-grid">
+                    <div class="image-item">
+                        <img src="images/intro_web_design_480x.png"
+                        srcset="images/intro_web_design_480x.png 480w,
+                           images/intro_web_design_960x.png 960w"
+                        alt="Project 1 web design"
+                        width="480"
+                        height="auto">
+                        <p ><a href="https://github.com/carstenk83/Introduction-to-Web-Design" target="_blank">Web Design - GitHub Link</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <h2>Java Projects</h2>
+                <p>Here are some of my Java projects:</p>
+                <img src="images/java_480x.png"
+                        srcset="images/java_480x.png 480w,
+                           images/java_960x.png 960w,
+                           images/java_1440x.png 1440w"
+                        alt="Project 1 web design"
+                        width="480"
+                        height="auto">
+                <p><a href="https://github.com/carstenk83" target="_blank">Java - GitHub Link</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carsten Kaiser's Portfolio</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

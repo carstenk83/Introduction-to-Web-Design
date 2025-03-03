@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styleSheet/style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="color-toggle" style="margin-top: 1rem; padding: 0.5rem 1rem;">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section class="flex-container about">
+            <div class="flex-item">
+                <h2>Who Am I?</h2>
+                <p>I am from Philadelphia, Pennsylvania, and currently a freshman at New York University (NYU), pursuing a dual degree in Computer Science and Economics. In addition to my academic pursuits, I am a member of the Varsity baseball team. I have a strong passion for coding, particularly in developing websites and software applications. My interests also extend to Cybersecurity, where I am eager to explore the intersection of technology and security.</p>
+
+                <p>In case you are unfamiliar with NYU, below is a quick video tour!</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GxqR6p8r6z0?si=G_TupVCazEBW7YYw"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+            </div>
+            <div class="flex-item">
+                <h2>Education</h2>
+                <p>High School: Archmere Academy, 4.46 GPA</p>
+                <img src="images/Archmere_480x.png"
+                srcset="images/Archmere_480x.png 480w,
+                    images/Archmere_960x.png 960w"
+                alt="Archmere Academy Logo"
+                width="200"
+                height="auto">
+                <p>College: NYU, Unknown GPA</p>
+                <div>
+                    <img src="images/NYULogo_480x.png"
+                    srcset="images/NYULogo_480x.png 480w,
+                        images/NYULogo_960x.png 960w,
+                        images/NYULogo_1440x.png 1440w"
+                    alt="New York University Logo"
+                    width="200"
+                    height="auto">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carsten Kaiser's Portfolio</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

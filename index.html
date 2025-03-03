@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styleSheet/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="color-toggle" style="margin-top: 1rem; padding: 0.5rem 1rem;">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section class="flex-container home">
+            <div class="flex-item">
+                <h2 id="home-page-header">Hello! I am Carsten Kaiser</h2>
+                <p>Welcome to my portfolio! Here you can learn about me, explore my projects, and find ways to connect with me.</p>
+            </div>
+            <div class="flex-item image-item">
+                <img src="images/Me_480x.png"
+                srcset="images/Me_480x.png 480w,
+                    images/Me_960x.png 960w,
+                    images/Me_1440x.png 1440w"
+                alt="Miles Teller as Andrew Neiman"
+                width="480"
+                height="auto">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carsten Kaiser's Portfolio</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
