@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Duck Logo</title>
+  <ellipse cx="100" cy="120" rx="60" ry="40" fill="yellow" />
+  <circle cx="140" cy="90" r="30" fill="yellow" />
+  <a href="https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-ducks">
+    <polygon points="160,90 180,95 160,100" fill="orange" />
+  </a>
+  <a href="https://www.rd.com/article/duck-jokes/">
+    <circle cx="130" cy="85" r="5" fill="black" />
+  </a>
+  <text x="85" y="130" font-family="Arial" font-size="24" fill="black">CK</text>
+</svg>
